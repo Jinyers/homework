@@ -25,4 +25,7 @@ int main()
 
   // End
   cout << "Сумма элементов: " << sum << endl;
+
+  delete[] massive;
+  return 0;
 }

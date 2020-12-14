@@ -23,6 +23,7 @@ int main()
     result += pow(massive[i], 2);
   result /= size;
 
+  delete[] massive;
   cout << "Среднее арифметическое значение квадратов элементов массива: " << result << endl;
   return 0;
 }

@@ -33,5 +33,6 @@ int main()
       sum += massive[i];
   cout << "Сумма элементов массива: " << sum << endl;
 
+  delete[] massive;
   return 0;
 }

@@ -21,6 +21,7 @@ int main()
     if (massive[i] < 0)
       sum += massive[i];
 
+  delete[] massive;
   cout << "Сумма отрицательных элементов: " << sum << endl;
   return 0;
 }

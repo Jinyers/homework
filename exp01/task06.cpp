@@ -22,6 +22,7 @@ int main()
     if (massive[i] < 0)
       sum *= abs(massive[i]);
 
+  delete[] massive;
   cout << "Произведение абсолютных отрицательных элементов: " << sum << endl;
   return 0;
 }

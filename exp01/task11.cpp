@@ -30,5 +30,6 @@ int main()
   cout << "Сумма абсолютных значений положительных элементов: " << positive << endl;
   cout << "Сумма абсолютных значений отрицательных элементов: " << negative << endl;
   
+  delete[] massive;
   return 0;
 }

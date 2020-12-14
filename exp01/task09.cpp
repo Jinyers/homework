@@ -35,4 +35,7 @@ int main()
       result *= massive[i];
 
   cout << "Произведение элементов массива: " << result << endl;
+
+  delete[] massive;
+  return 0;
 }
