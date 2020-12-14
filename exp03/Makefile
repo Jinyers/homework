@@ -1,6 +1,6 @@
-CC 			= clang++
+CC		= clang++
 LDFLAGS = -std=c++17 -stdlib=libc++ 
-SOURCES = task05.cpp 
+SOURCES = task06.cpp 
 OBJECTS = $(SOURCES:.cpp=.o)
 
 release: $(SOURCES)
